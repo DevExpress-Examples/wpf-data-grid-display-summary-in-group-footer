@@ -1,0 +1,32 @@
+﻿<dx:DXWindow
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:GroupFootersWPF"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" x:Class="GroupFootersWPF.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <ResourceDictionary Source="/GroupFootersWPF;component/Themes/GridControlTemplates.xaml" />
+    </Window.Resources>
+    <Grid>
+        <dxg:GridControl x:Name="grid" ItemsSource="{Binding}">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="Text"/>
+                <dxg:GridColumn FieldName="Number0"/>
+                <dxg:GridColumn FieldName="Number1"/>
+                <dxg:GridColumn FieldName="Number2" Fixed="Left"/>
+                <dxg:GridColumn FieldName="Group" GroupIndex="0"/>
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <local:MyTableView UseAnimationWhenExpanding="False" AllowFixedColumnMenu="True" GroupSummaryDisplayMode="AlignByColumns"
+                            DataRowTemplate="{StaticResource dataRowTemplate}" GroupRowTemplate="{StaticResource groupRowTemplate}"/>
+            </dxg:GridControl.View>
+            <dxg:GridControl.GroupSummary>
+                <dxg:GridSummaryItem FieldName="Text" SummaryType="Count"/>
+                <dxg:GridSummaryItem FieldName="Number0" SummaryType="Sum"/>
+                <dxg:GridSummaryItem FieldName="Number1" SummaryType="Sum"/>
+                <dxg:GridSummaryItem FieldName="Number2" SummaryType="Max"/>
+            </dxg:GridControl.GroupSummary>
+        </dxg:GridControl>
+    </Grid>
+</dx:DXWindow>
