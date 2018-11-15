@@ -1,3 +1,13 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Descendants.cs](./CS/GroupFootersWPF/Descendants.cs) (VB: [Descendants.vb](./VB/GroupFootersWPF/Descendants.vb))
+* [GroupFooter.cs](./CS/GroupFootersWPF/GroupFooter.cs) (VB: [GroupFooter.vb](./VB/GroupFootersWPF/GroupFooter.vb))
+* [MainWindow.xaml](./CS/GroupFootersWPF/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/GroupFootersWPF/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/GroupFootersWPF/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/GroupFootersWPF/MainWindow.xaml))
+* [Generic.xaml](./CS/GroupFootersWPF/Themes/Generic.xaml) (VB: [Generic.xaml](./VB/GroupFootersWPF/Themes/Generic.xaml))
+* [GridControlTemplates.xaml](./CS/GroupFootersWPF/Themes/GridControlTemplates.xaml) (VB: [GridControlTemplates.xaml](./VB/GroupFootersWPF/Themes/GridControlTemplates.xaml))
+<!-- default file list end -->
 # DXGrid - How to show group summaries in a group footer
 
 
