@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/GroupFootersWPF/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/GroupFootersWPF/MainWindow.xaml.vb))
+* [MainWindow.xaml.cs](./CS/GroupFootersWPF/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/GroupFootersWPF/MainWindow.xaml.vb))
+<!-- default file list end -->
 # DXGrid - How to show group summaries in a group footer
 
 
