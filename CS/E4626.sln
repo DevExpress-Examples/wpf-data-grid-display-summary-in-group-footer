@@ -1,5 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupFootersWPF", "GroupFootersWPF\GroupFootersWPF.csproj", "{B1A208E2-B7BD-4FDE-93A5-2CD23D24071A}"
 EndProject
 Global
